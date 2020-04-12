@@ -1,0 +1,142 @@
+.section1 {
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+
+.positif,
+.meninggal,
+.sembuh {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.positif {
+    height: 100px;
+    width: 250px;
+    border-radius: 10px;
+    /* background-color: red; */
+    display: inline-block;
+    padding-left: 10px;
+    text-align: left;
+    background: #ffffff;
+    box-shadow:  -6px 6px 12px #e6e6e6,
+             6px -6px 12px #ffffff;
+}
+
+.meninggal {
+    height: 100px;
+    width: 250px;
+    border-radius: 10px;
+    /* background-color: yellow; */
+    display: inline-block;
+    padding-left: 10px;
+    text-align: left;
+    background: #ffffff;
+    box-shadow:  -6px 6px 12px #e6e6e6,
+             6px -6px 12px #ffffff;
+}
+
+.sembuh {
+    height: 100px;
+    width: 250px;
+    border-radius: 10px;
+    display: inline-block;
+    padding-left: 10px;
+    text-align: left;
+    background: #ffffff;
+    box-shadow:  -6px 6px 12px #e6e6e6,
+             6px -6px 12px #ffffff;
+}
+
+.section1 img {
+    width: 20%;
+    position: relative;
+    float: right;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+.positif h3 {
+  display: inline-block;
+  margin-top: 13px;
+  color: red;
+  font-size: 28px;
+}
+.positif h1 {
+  color: red;
+  font-size: 30px;
+  margin-top: -10px;
+
+}
+.Positif span {
+  color: red;
+  position: relative;
+  top: -35px;
+  left: 80px;
+}
+
+.meninggal h3 {
+  display: inline-block;
+  margin-top: 13px;
+  color: #000;
+  font-size: 28px;
+}
+.meninggal h1 {
+  color: #000;
+  font-size: 30px;
+  margin-top: -10px;
+
+}
+.meninggal span {
+  color: #000;
+  position: relative;
+  top: -35px;
+  left: 60px;
+}
+
+.sembuh h3 {
+  display: inline-block;
+  margin-top: 13px;
+  color: greenyellow;
+  font-size: 28px;
+}
+.sembuh h1 {
+  color: greenyellow;
+  font-size: 30px;
+  margin-top: -10px;
+
+}
+.sembuh span {
+  color: greenyellow;
+  position: relative;
+  top: -35px;
+  left: 60px;
+}
+
+.section2 {
+  width: 960px;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.card-title {
+  display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    /* font-weight: bold; */
+}
+
+
+    /* @media (min-width: 576px) {
+      .section1 {
+        width: 576;
+        height: auto;
+        text-align: center;
+        margin: auto;
+      }
+    } */
